@@ -1,0 +1,1 @@
+{"version":3,"file":"AdminProductController.d.ts","sourceRoot":"","sources":["../../src/controllers/AdminProductController.ts"],"names":[],"mappings":"AAMA,qBAAa,sBAAsB;IAC/B,OAAO,CAAC,IAAI,CAA0B;IACtC,OAAO,CAAC,cAAc,CAAwB;IAC9C,OAAO,CAAC,eAAe,CAAyB;IAEnC,IAAI;IAKZ,MAAM;IAMX,WAAW,IAAG,IAAI;CAYrB"}
