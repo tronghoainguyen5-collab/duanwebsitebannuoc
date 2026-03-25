@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý tài khoản - Phúc Long</title>
+    <!-- Bootstrap CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="public/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/css/admin.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background: rgba(255, 140, 0, 0.9)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="admin.html"
+          >Admin | Phúc Long</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="profile.html"
+                >Xin chào, Quản trị viên</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="logout.html">Đăng xuất</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 sidebar position-sticky top-0">
+          <a href="admin.html">📊 Tổng quan</a>
+          <a href="admin-product.html">🛒 QL Sản phẩm</a>
+          <a href="admin-topping.html">🍬 QL Topping</a>
+          <a href="admin-order.html">📦 QL Đơn hàng</a>
+          <a href="admin-user.html" class="active">👥 QL Tài khoản</a>
+        </div>
+
+        <!-- Nội dung chính -->
+        <div class="col-md-10 p-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 class="mb-4">Quản lý tài khoản</h2>
+            <a href="admin-user-form.html" class="btn btn-primary"
+              >Thêm tài khoản</a
+            >
+          </div>
+
+          <!-- Bảng tài khoản -->
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Vai trò</th>
+                <th>Hành động</th>
+              </tr>
+            </thead>
+            <tbody class="align-middle">
+              <tr>
+                <td>1</td>
+                <td>Quản Trị Viên</td>
+                <td>admin@gmail.com</td>
+                <td>113</td>
+                <td>QTSC9, CVPM Quang Trung</td>
+                <td><span class="badge bg-danger">Admin</span></td>
+                <td>
+                  <a
+                    href="admin-user-form.html?id=1"
+                    class="btn btn-sm btn-warning"
+                    >Sửa</a
+                  >
+                  <button class="btn btn-sm btn-danger">Xóa</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="dist/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,688 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Trà Sữa Phúc Long (L)",
+      "price": 60000,
+      "image": "ts1.png",
+      "description": "Trà sữa đậm vị trà Phúc Long, béo nhẹ, hậu ngọt tự nhiên",
+      "category_id": "1",
+      "bestSeller": true
+    },
+    {
+      "id": "2",
+      "name": "Trà Sữa Ô Long (L)",
+      "price": 60000,
+      "image": "ts2.png",
+      "description": "Trà sữa ô long thơm dịu, vị trà rõ ràng, ít ngọt",
+      "category_id": "1"
+    },
+    {
+      "id": "3",
+      "name": "Hồng Trà Sữa (L)",
+      "price": 60000,
+      "image": "ts3.png",
+      "description": "Hồng trà đậm vị kết hợp sữa béo mịn",
+      "category_id": "1"
+    },
+    {
+      "id": "4",
+      "name": "Trà Sữa Lài (M)",
+      "price": 55000,
+      "image": "ts4.png",
+      "description": "Trà lài hương hoa nhẹ, thanh mát",
+      "category_id": "1"
+    },
+    {
+      "id": "5",
+      "name": "Trà Sữa Ô Long Quế Hoa (L)",
+      "price": 55000,
+      "image": "ts5.png",
+      "description": "Ô long kết hợp hương quế hoa đặc trưng",
+      "category_id": "1"
+    },
+    {
+      "id": "6",
+      "name": "Hồng Trà Chanh (L)",
+      "price": 55000,
+      "image": "ttc1.png",
+      "description": "Trà trái cây thanh mát với đào, cam và sả",
+      "category_id": "2"
+    },
+    {
+      "id": "7",
+      "name": "Hồng Trà Đào (L)",
+      "price": 65000,
+      "image": "ttc2.png",
+      "description": "Trà trái cây thơm nhẹ, vị ngọt thanh",
+      "category_id": "2"
+    },
+    {
+      "id": "8",
+      "name": "Trà Vải Lài (L)",
+      "price": 65000,
+      "image": "ttc3.png",
+      "description": "Trà ô long nguyên chất, không sữa",
+      "category_id": "2"
+    },
+    {
+      "id": "9",
+      "name": "Trà Nhãn Sen (L)",
+      "price": 65000,
+      "image": "ttc4.png",
+      "description": "Hồng trà đậm vị, hậu chát nhẹ",
+      "category_id": "2"
+    },
+    {
+      "id": "10",
+      "name": "Cà Phê Đen Đá (M)",
+      "price": 35000,
+      "image": "cf1.png",
+      "description": "Cà phê rang xay truyền thống",
+      "category_id": "3"
+    },
+    {
+      "id": "11",
+      "name": "Cà Phê Sữa Đá (M)",
+      "price": 39000,
+      "image": "cf4.png",
+      "description": "Cà phê sữa đá đậm đà, chuẩn vị Việt",
+      "category_id": "3"
+    },
+    {
+      "id": "12",
+      "name": "Cà phê Cappuccino (L)",
+      "price": 65000,
+      "image": "cf2.png",
+      "description": "Cà phê sữa đá đậm đà, chuẩn vị Việt",
+      "category_id": "3"
+    },
+    {
+      "id": "13",
+      "name": "Cà Phê Sữa Kem Silky (L)",
+      "price": 55000,
+      "image": "cf3.png",
+      "description": "Cà phê sữa đá đậm đà, chuẩn vị Việt",
+      "category_id": "3"
+    }
+  ],
+  "toppings": [
+    {
+      "id": "1",
+      "name": "Trân châu trắng",
+      "price": 9000
+    },
+    {
+      "id": "2",
+      "name": "Trân châu đen",
+      "price": 9000
+    },
+    {
+      "id": "3",
+      "name": "Trân châu hoàng kim",
+      "price": 10000
+    },
+    {
+      "id": "4",
+      "name": "Thạch phô mai",
+      "price": 12000
+    },
+    {
+      "id": "5",
+      "name": "Thạch trà xanh",
+      "price": 9000
+    },
+    {
+      "id": "6",
+      "name": "Sương sáo",
+      "price": 8000
+    },
+    {
+      "id": "7",
+      "name": "Kem sữa",
+      "price": 13000
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Trà Sữa"
+    },
+    {
+      "id": "2",
+      "name": "Trà Trái Cây"
+    },
+    {
+      "id": "3",
+      "name": "Cà Phê"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "phone": "113",
+      "name": "Quản Trị Viên",
+      "address": "QTSC9, CVPM Quang Trung",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123",
+      "phone": "114",
+      "name": "Khách Hàng",
+      "address": "Sân bay Tân Sơn Nhất",
+      "role": "user"
+    },
+    {
+      "id": "58a0",
+      "email": "tronghoainguyen5@gmail.com",
+      "password": "hoai123456789",
+      "phone": "093513518",
+      "name": "Nguyễn Trọng Hoài",
+      "address": "",
+      "role": "user"
+    },
+    {
+      "id": "8a97",
+      "email": "tronghoainguyen5@gmail.com",
+      "password": "hoai123456",
+      "phone": "0989348367",
+      "name": "Trọng Hoài Nguyễn",
+      "address": "",
+      "role": "user"
+    },
+    {
+      "id": "5c65",
+      "email": "admin1@gmail.com",
+      "password": "admin123",
+      "phone": "0123456549",
+      "name": "Admin",
+      "address": "",
+      "role": "admin"
+    },
+    {
+      "id": "cb68",
+      "email": "tronghoai123@gmail.com",
+      "password": "123456",
+      "phone": "0937781823",
+      "name": "Trọng Hoài Nguyễn",
+      "address": "",
+      "role": "user"
+    },
+    {
+      "id": "37a4",
+      "email": "cuong123@gmail.com",
+      "password": "123456",
+      "phone": "123133",
+      "name": "Cường",
+      "address": "",
+      "role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": "0",
+      "createDate": "2026-01-28T17:48:52.700Z",
+      "total": 195000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "235262624",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Cà Phê Đen Đá",
+            "price": 39000,
+            "image": "Cà Phê Đen Đá.png",
+            "description": "Cà phê đen đá - Đen hơn cả cuộc đời của bạn",
+            "category_id": "1"
+          },
+          "toppings": [],
+          "quantity": 5
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "id": "0",
+      "createDate": "2026-01-28T17:53:03.414Z",
+      "total": 68000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "+84989348367",
+        "name": "Trọng Hoài",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Cold Brew Kim Quất",
+            "price": 49000,
+            "image": "Cold Brew Kim Quất.png",
+            "description": "Cold brew thanh mát kết hợp vị chua nhẹ của kim quất",
+            "category_id": "2"
+          },
+          "toppings": [
+            {
+              "id": "2",
+              "name": "Trân châu đen",
+              "price": 9000
+            },
+            {
+              "id": "3",
+              "name": "Trân châu hoàng kim",
+              "price": 10000
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "0ce3",
+      "createDate": "2026-01-28T17:55:06.383Z",
+      "total": 134000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "032213513",
+        "name": "Trọng Hoài 555",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "4",
+            "name": "Cold Brew Truyền Thống",
+            "price": 45000,
+            "image": "Cold Brew Truyền Thống.png",
+            "description": "Cold brew ủ lạnh truyền thống, hậu vị êm và ít đắng",
+            "category_id": "2"
+          },
+          "toppings": [
+            {
+              "id": "8",
+              "name": "Kem cheese",
+              "price": 13000
+            },
+            {
+              "id": "7",
+              "name": "Thạch trái cây",
+              "price": 9000
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "status": "cancel"
+    },
+    {
+      "id": "0ebf",
+      "createDate": "2026-01-28T17:58:14.144Z",
+      "total": 78000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "252352323",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Cà Phê Đen Đá",
+            "price": 39000,
+            "image": "Cà Phê Đen Đá.png",
+            "description": "Cà phê đen đá - Đen hơn cả cuộc đời của bạn",
+            "category_id": "1"
+          },
+          "toppings": [],
+          "quantity": 2
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "id": "bae0",
+      "createDate": "2026-01-28T17:59:08.090Z",
+      "total": 177000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "35236266",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "3",
+            "name": "Cold Brew Kim Quất",
+            "price": 49000,
+            "image": "Cold Brew Kim Quất.png",
+            "description": "Cold brew thanh mát kết hợp vị chua nhẹ của kim quất",
+            "category_id": "2"
+          },
+          "toppings": [
+            {
+              "id": "3",
+              "name": "Trân châu hoàng kim",
+              "price": 10000
+            }
+          ],
+          "quantity": 3
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "6ac3",
+      "createDate": "2026-02-05T08:25:30.755Z",
+      "total": 138000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "+84989348367",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "2",
+            "name": "Cà Phê Sữa Đá",
+            "price": 42000,
+            "image": "Cà Phê Sữa Đá.png",
+            "description": "Cà phê sữa đá đậm đà, béo ngậy, chuẩn vị Việt Nam",
+            "category_id": "1"
+          },
+          "toppings": [
+            {
+              "id": "5",
+              "name": "Pudding trứng",
+              "price": 11000
+            },
+            {
+              "id": "7",
+              "name": "Thạch trái cây",
+              "price": 9000
+            },
+            {
+              "id": "9",
+              "name": "Hạt chia",
+              "price": 7000
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "id": "ff17",
+      "createDate": "2026-02-05T08:28:08.285Z",
+      "total": 180000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "1351551",
+        "name": "hhhh",
+        "address": "aaa",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "7",
+            "name": "Matcha Tây Bắc Trân Châu Hoàng Kim",
+            "price": 55000,
+            "image": "Matcha Tây Bắc Trân Châu Hoàng Kim.png",
+            "description": "Matcha đậm vị kết hợp trân châu hoàng kim giòn dai",
+            "category_id": "4"
+          },
+          "toppings": [
+            {
+              "id": "1",
+              "name": "Trân châu trắng",
+              "price": 9000
+            },
+            {
+              "id": "3",
+              "name": "Trân châu hoàng kim",
+              "price": 10000
+            },
+            {
+              "id": "7",
+              "name": "Thạch trái cây",
+              "price": 9000
+            },
+            {
+              "id": "9",
+              "name": "Hạt chia",
+              "price": 7000
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "status": "cancel"
+    },
+    {
+      "id": "9bc3",
+      "createDate": "2026-02-05T08:38:04.962Z",
+      "total": 240000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "151651658",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "6",
+            "name": "Matcha Latte Tây Bắc",
+            "price": 52000,
+            "image": "Matcha Latte Tây Bắc.png",
+            "description": "Matcha Tây Bắc nguyên chất, sữa béo mịn, vị thanh",
+            "category_id": "4"
+          },
+          "toppings": [
+            {
+              "id": "1",
+              "name": "Trân châu trắng",
+              "price": 9000
+            },
+            {
+              "id": "3",
+              "name": "Trân châu hoàng kim",
+              "price": 10000
+            },
+            {
+              "id": "7",
+              "name": "Thạch trái cây",
+              "price": 9000
+            }
+          ],
+          "quantity": 3
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "c0ed",
+      "createDate": "2026-02-22T17:18:00.147Z",
+      "total": 152000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "131231",
+        "name": "aaa",
+        "address": "ádadas",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "4",
+            "name": "Trà Sữa Lài (M)",
+            "price": 55000,
+            "image": "ts4.png",
+            "description": "Trà lài hương hoa nhẹ, thanh mát",
+            "category_id": "1"
+          },
+          "toppings": [
+            {
+              "id": "2",
+              "name": "Trân châu đen",
+              "price": 9000
+            },
+            {
+              "id": "4",
+              "name": "Thạch phô mai",
+              "price": 12000
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "29ce",
+      "createDate": "2026-02-22T19:35:35.193Z",
+      "total": 344000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "22222",
+        "name": "Trọng Hoài Nguyễn",
+        "address": "C2 /1 ấp 33 Xã Tân Vĩnh Lộc",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "8",
+            "name": "Trà Vải Lài (L)",
+            "price": 65000,
+            "image": "ttc3.png",
+            "description": "Trà ô long nguyên chất, không sữa",
+            "category_id": "2"
+          },
+          "toppings": [
+            {
+              "id": "1",
+              "name": "Trân châu trắng",
+              "price": 9000
+            },
+            {
+              "id": "4",
+              "name": "Thạch phô mai",
+              "price": 12000
+            }
+          ],
+          "quantity": 4
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "4ddf",
+      "createDate": "2026-02-23T03:45:51.178Z",
+      "total": 556000,
+      "user": {
+        "id": "0",
+        "email": "",
+        "password": "",
+        "phone": "123546",
+        "name": "cuong",
+        "address": "aa1321",
+        "role": "user"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "4",
+            "name": "Trà Sữa Lài (M)",
+            "price": 55000,
+            "image": "ts4.png",
+            "description": "Trà lài hương hoa nhẹ, thanh mát",
+            "category_id": "1"
+          },
+          "toppings": [
+            {
+              "id": "3",
+              "name": "Trân châu hoàng kim",
+              "price": 10000
+            },
+            {
+              "id": "6",
+              "name": "Sương sáo",
+              "price": 8000
+            },
+            {
+              "id": "5",
+              "name": "Thạch trà xanh",
+              "price": 9000
+            }
+          ],
+          "quantity": 5
+        },
+        {
+          "product": {
+            "id": "5",
+            "name": "Trà Sữa Ô Long Quế Hoa (L)",
+            "price": 55000,
+            "image": "ts5.png",
+            "description": "Ô long kết hợp hương quế hoa đặc trưng",
+            "category_id": "1"
+          },
+          "toppings": [
+            {
+              "id": "1",
+              "name": "Trân châu trắng",
+              "price": 9000
+            },
+            {
+              "id": "2",
+              "name": "Trân châu đen",
+              "price": 9000
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "status": "shipping"
+    }
+  ]
+}

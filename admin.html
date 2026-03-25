@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard - Phúc Long</title>
+    <!-- Bootstrap CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="public/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/css/admin.css" />
+    <!-- Google Charts -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background: rgba(255, 140, 0, 0.9)"
+    >
+      <div class="container-fluid">
+        <a style="color:white" class="navbar-brand text-white fw-bold" href="admin.html"
+          >Admin | Phúc Long</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span style="color:white" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" style="color:white" href="profile.html"
+                >Xin chào, Quản trị viên</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" style="color:white" href="logout.html">Đăng xuất</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 sidebar position-sticky top-0">
+          <a href="admin.html" class="active">📊 Tổng quan</a>
+          <a href="admin-product.html">🛒 QL Sản phẩm</a>
+          <a href="admin-topping.html">🍬 QL Topping</a>
+          <a href="admin-order.html">📦 QL Đơn hàng</a>
+          <a href="admin-user.html">👥 QL Tài khoản</a>
+        </div>
+
+        <!-- Nội dung chính -->
+        <div class="col-md-10 p-4" id="main">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Ngày", "Doanh thu (VNĐ)"],
+          ["25/01", 5000000],
+          ["26/01", 7000000],
+          ["27/01", 6500000],
+          ["28/01", 8000000],
+          ["29/01", 9000000],
+          ["30/01", 7500000],
+          ["31/01", 10000000],
+        ]);
+
+        var options = {
+          title: "Doanh thu từng ngày",
+          hAxis: { title: "Ngày" },
+          vAxis: { title: "Doanh thu (VNĐ)" },
+          legend: { position: "none" },
+          colors: ["#FF8C00"],
+        };
+
+        var chart = new google.visualization.ColumnChart(
+          document.getElementById("revenue_chart"),
+        );
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="module" src="dist/admin.js"></script>
+  </body>
+</html>

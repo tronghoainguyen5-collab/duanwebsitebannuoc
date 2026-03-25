@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin cá nhân - Phúc Long</title>
+    <!-- Bootstrap CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="public/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+  <header class="header-top">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <div class="logo">
+      <img src="public/img/logo.png" alt="XLinh">
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Bạn muốn mua gì hôm nay?" />
+    </div>
+
+    <div class="header-icons">
+      <a href="cart.html" class="icon">🛒</a>
+      <!-- <a href="login.html" class="icon">👤</a> -->
+    </div>
+
+  </div>
+</header>
+
+<!-- ===== NAVBAR MAIN ===== -->
+<nav class="navbar navbar-expand-lg navbar-main">
+  <div class="container">
+    <div id="navbarNav"></div>
+  </div>
+</nav>
+
+    <!-- Nội dung Profile -->
+    <div class="container my-5">
+      <h2 class="mb-4">Thông tin cá nhân</h2>
+      <div class="row">
+        <!-- Form thay đổi thông tin -->
+        <div class="col-md-3">
+          <div class="card shadow mb-4">
+            <div class="card-body">
+              <h4 class="mb-3">Cập nhật thông tin</h4>
+              <form id="update-profile-form">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Họ tên</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    value="Nguyễn Văn A"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Số điện thoại</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    class="form-control"
+                    value="0123456789"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    value="example@gmail.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Mật khẩu</label>
+                  <input
+                    type="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="(Để trống nếu không đổi)"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="address" class="form-label">Địa chỉ</label>
+                  <textarea id="address" class="form-control" rows="3">
+QTSC 9, CVPM Quang Trung, TP.HCM</textarea
+                  >
+                </div>
+                <button type="submit" class="btn btn-warning">
+                  Lưu thay đổi
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Danh sách đơn hàng -->
+        <div class="col-md-9">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="mb-3">Đơn hàng đã đặt</h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Mã đơn</th>
+                    <th>Sản phẩm</th>
+                    <th>Ngày đặt</th>
+                    <th>Trạng thái</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#DH001</td>
+                    <td>Trà sữa trân châu x2</td>
+                    <td>10/01/2026</td>
+                    <td><span class="badge bg-success">Đã giao</span></td>
+                  </tr>
+                  <tr>
+                    <td>#DH002</td>
+                    <td>Trà đào cam sả x1</td>
+                    <td>15/01/2026</td>
+                    <td>
+                      <span class="badge bg-warning text-dark">Đang giao</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>#DH003</td>
+                    <td>Trà vải hoa nhài x3</td>
+                    <td>18/01/2026</td>
+                    <td><span class="badge bg-secondary">Chờ xử lý</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+   <footer class="footer-pro">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 footer-col">
+        <img src="public/img/logo.png" class="footer-logo">
+        <p>
+          Công ty Cổ phần XLinh Coffee & Tea<br>
+          Hotline: <strong>1800 6779</strong><br>
+          Email: support@xlinh.vn
+        </p>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>VỀ CHÚNG TÔI</h6>
+        <ul>
+          <li>Giới thiệu</li>
+          <li>Tuyển dụng</li>
+          <li>Liên hệ</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>SẢN PHẨM</h6>
+        <ul>
+          <li>Trà</li>
+          <li>Cà phê</li>
+          <li>Bánh ngọt</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>HỖ TRỢ</h6>
+        <ul>
+          <li>Câu hỏi thường gặp</li>
+          <li>Điều khoản</li>
+          <li>Chính sách</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>KẾT NỐI</h6>
+        <div class="social-icons">
+          <span>FB</span>
+          <span>IG</span>
+          <span>YT</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 XLinh Coffee & Tea. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+    <!-- Bootstrap JS + Custom JS -->
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="dist/app.js"></script>
+  </body>
+</html>

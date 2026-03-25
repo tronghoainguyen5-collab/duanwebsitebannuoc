@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Đăng nhập | XLinh Coffee & Tea</title>
+  <link href="public/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="public/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<header class="header-top">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <div class="logo">
+      <img src="public/img/logo.png" alt="XLinh">
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Bạn muốn mua gì hôm nay?" />
+    </div>
+
+    <div class="header-icons">
+      <a href="cart.html" class="icon">🛒</a>
+      <!-- <a href="login.html" class="icon">👤</a> -->
+    </div>
+
+  </div>
+</header>
+
+<!-- ===== NAVBAR MAIN ===== -->
+<nav class="navbar navbar-expand-lg navbar-main">
+  <div class="container">
+    <div id="navbarNav"></div>
+  </div>
+</nav>
+
+  <div class="auth-page">
+<div class="auth-wrapper">
+  <div class="auth-card">
+
+    <div class="auth-header">
+      <img src="public/img/logo.png" alt="Phúc Long">
+      <h4>Đăng nhập tài khoản</h4>
+      <p>Chào mừng bạn quay lại với Phúc Long</p>
+    </div>
+
+    <form id="login-form" class="auth-form">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="email" required placeholder="example@email.com">
+      </div>
+
+      <div class="form-group">
+        <label>Mật khẩu</label>
+        <input type="password" id="password" required placeholder="••••••••">
+      </div>
+
+      <button type="submit" class="btn-auth">
+        Đăng nhập
+      </button>
+    </form>
+
+    <div class="auth-footer">
+      <span>Chưa có tài khoản?</span>
+      <a href="register.html">Đăng ký ngay</a>
+    </div>
+
+  </div>
+</div>
+</div>
+<footer class="footer-pro">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 footer-col">
+        <img src="public/img/logo.png" class="footer-logo">
+        <p>
+          Công ty Cổ phần XLinh Coffee & Tea<br>
+          Hotline: <strong>1800 6779</strong><br>
+          Email: support@xlinh.vn
+        </p>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>VỀ CHÚNG TÔI</h6>
+        <ul>
+          <li>Giới thiệu</li>
+          <li>Tuyển dụng</li>
+          <li>Liên hệ</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>SẢN PHẨM</h6>
+        <ul>
+          <li>Trà</li>
+          <li>Cà phê</li>
+          <li>Bánh ngọt</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>HỖ TRỢ</h6>
+        <ul>
+          <li>Câu hỏi thường gặp</li>
+          <li>Điều khoản</li>
+          <li>Chính sách</li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 footer-col">
+        <h6>KẾT NỐI</h6>
+        <div class="social-icons">
+          <span>FB</span>
+          <span>IG</span>
+          <span>YT</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 XLinh Coffee & Tea. All rights reserved.
+    </div>
+  </div>
+</footer>
+<script src="public/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="dist/app.js"></script>
+</body>
+</html>
